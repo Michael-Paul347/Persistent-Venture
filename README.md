@@ -29,8 +29,32 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Running the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Clone the Repository: Clone the project to your local machine.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    bash
+
+git clone https://github.com/your-repo/unified-chat-overlay.git
+
+Install Dependencies: Navigate into the project folder and install the necessary dependencies.
+
+bash
+
+cd your-app-name
+npm install
+
+Configure Environment Variables: Create a .env.local file in the project root and add the following environment variables:
+
+makefile
+
+MATRIX_ACCESS_TOKEN=your-matrix-access-token
+MATRIX_USER_ID=@your-username:matrix.org
+
+Start the Project: Start the Next.js development server:
+
+bash
+
+npm run dev
+
+View the Application: Open your browser and navigate to http://localhost:3000. You should see the unified chat with message summaries and full message view functionality.
