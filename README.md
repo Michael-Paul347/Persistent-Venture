@@ -39,8 +39,6 @@ git clone https://github.com/your-repo/unified-chat-overlay.git
 
 Install Dependencies: Navigate into the project folder and install the necessary dependencies.
 
-bash
-
 cd your-app-name
 npm install
 
@@ -49,11 +47,10 @@ Configure Environment Variables: Create a .env.local file in the project root an
 makefile
 
 MATRIX_ACCESS_TOKEN=your-matrix-access-token
+
 MATRIX_USER_ID=@your-username:matrix.org
 
 Start the Project: Start the Next.js development server:
-
-bash
 
 npm run dev
 
